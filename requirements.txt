@@ -1,0 +1,8 @@
+numpy
+opencv-python
+mediapipe
+keyboard
+scikit-learn==1.3.2
+tensorflow
+robomaster
+pypdf

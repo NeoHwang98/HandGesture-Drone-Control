@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data outputs
+data/gesture_data.csv
+data/gesture_sequence_data.npz
+assets/hand_landmarker.task
+__pycache__/
+
+# Model / large binary artifacts generated during experimentation
+*.h5
+*.keras
+*.pkl
+
+# Keep current committed model artifacts by exception if needed
+!models/static/gesture_model2.pkl
+!models/static/label_encoder2.pkl
+!models/static/scaler2.pkl
+!models/dynamic/updated_gesture_lstm1.keras
+!models/dynamic/updated_label_encoder_lstm1.pkl
