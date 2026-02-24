@@ -43,3 +43,4 @@ __pycache__/
 !models/static/scaler2.pkl
 !models/dynamic/updated_gesture_lstm1.keras
 !models/dynamic/updated_label_encoder_lstm1.pkl
+*.mp4
