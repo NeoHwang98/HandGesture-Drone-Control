@@ -13,6 +13,10 @@ The control stack combines:
 
 The primary runtime script reads the drone camera feed, detects gestures, and maps them to drone flight commands and onboard LED indicators.
 
+## Demo Video
+
+Watch project demo at https://drive.google.com/file/d/1aaCWzcWyq33mFf73Fruo_OFLyHly0il5/view?usp=drive_link
+
 ## Repository Structure
 
 - `Vision based Gesture Control of Drones.py` - Main runtime for drone control and gesture inference
@@ -124,3 +128,4 @@ python webcam_inference_test.py
 - Add command-line flags for thresholds and model paths.
 - Add unit tests for feature extraction and directional logic.
 - Add a reproducible training pipeline script and dataset schema docs.
+
